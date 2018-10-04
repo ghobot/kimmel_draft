@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes view-control-buttons">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="#" class="scene" data-id="0-12th-floor-elevator-02">
+        <li class="text">12th floor elevator 02</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="1-elevator-bay-01">
+        <li class="text">elevator bay 01</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="2-lobby">
+        <li class="text">lobby</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="3-12-01">
+        <li class="text">12-01</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="4-12-02">
+        <li class="text">12-02</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="5-equipment-hall-01">
+        <li class="text">equipment hall 01</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="6-linen-01">
+        <li class="text">linen 01</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="7-central-station-north-01">
+        <li class="text">Central station North 01</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="8-central-station-02">
+        <li class="text">Central station 02</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="9-central-station-03">
+        <li class="text">Central station 03</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="10-central-station-04">
+        <li class="text">Central station 04</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="11-central-station-05">
+        <li class="text">Central station 05</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="12-12-04">
+        <li class="text">12-04</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="13-12-05">
+        <li class="text">12-05</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="14-12-05-02">
+        <li class="text">12-05 02</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="15-kimmel-north-view">
+        <li class="text">Kimmel North View</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="16-12-05-room-01">
+        <li class="text">12-05 room 01</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="17-12-05-room-02">
+        <li class="text">12-05 room 02</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="18-12-05-room-03">
+        <li class="text">12-05 room 03</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="19-12-05-room-04">
+        <li class="text">12-05 room 04</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="20-12-05-room-05">
+        <li class="text">12-05 room 05</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="21-12-05-bathroom">
+        <li class="text">12-05 bathroom</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="22-12-05-room-06">
+        <li class="text">12-05 room 06</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="23-12-05-room-07">
+        <li class="text">12-05 room 07</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="24-12-06">
+        <li class="text">12-06</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="25-equipment">
+        <li class="text">Equipment</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="26-pantry-01">
+        <li class="text">Pantry 01</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="27-pantry-02">
+        <li class="text">Pantry 02</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="28-central-station-south">
+        <li class="text">Central station south</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="29-central-station-south-02">
+        <li class="text">Central Station South 02</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="30-nook">
+        <li class="text">nook</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="31-kimmel-east-view">
+        <li class="text">Kimmel East View</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="32-office">
+        <li class="text">office</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="33-12-13">
+        <li class="text">12-13</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="34-service-closets">
+        <li class="text">service closets</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="35-conference-room">
+        <li class="text">conference room</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="36-backstage-02">
+        <li class="text">backstage 02</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="37-12-19">
+        <li class="text">12-19</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="38-linen">
+        <li class="text">linen</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="39-backstage-03">
+        <li class="text">backstage 03</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="40-service-elevators">
+        <li class="text">service elevators</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="41-oxygen">
+        <li class="text">oxygen</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="42-12-31">
+        <li class="text">12-31</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="43-office">
+        <li class="text">office</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="44-restroom">
+        <li class="text">restroom</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="45-patient-care-unit-lobby">
+        <li class="text">patient care unit lobby</li>
+      </a>
+    
+      <a href="#" class="scene" data-id="46-12th-floor-elevator">
+        <li class="text">12th floor elevator</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="#" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="#" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="#" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="#" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="#" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="#" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="#" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="#" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="#" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/es5-shim.js"></script>
+<script src="vendor/eventShim.js"></script>
+<script src="vendor/classList.js"></script>
+<script src="vendor/requestAnimationFrame.js" ></script>
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
